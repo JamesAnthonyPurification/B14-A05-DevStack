@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+}
+
+/* ---------------------------------------------------------------------- *
+ * Single source of truth for the brand gradient (orange -> pink -> violet).
+ * Change these three stops and the whole UI re-themes: brand wordmark,
+ * hero highlight, primary buttons, and the "Technologies" accent word.
+ * ---------------------------------------------------------------------- */
+:root {
+  --brand-from: #f97316;
+  --brand-via: #ec4899;
+  --brand-to: #8b5cf6;
+  --brand-gradient: linear-gradient(
+    90deg,
+    var(--brand-from) 0%,
+    var(--brand-via) 55%,
+    var(--brand-to) 100%
+  );
+
+  --ink: #0f172a;
+  --ink-muted: #64748b;
+  --surface-border: #e5e7eb;
+
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+}
+
+.text-gradient-brand {
+  background-image: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bg-gradient-brand {
+  background-image: var(--brand-gradient);
+}
+
+/* Keep the Toastify container above the sticky navbar. */
+.Toastify__toast-container {
+  z-index: 9999;
+}
