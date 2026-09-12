@@ -8,7 +8,7 @@ panel.
 ## Description
 
 Instead of scrolling through scattered blog posts to decide what to use for
-your next project, Dev Stack puts 14 popular technologies in one place —
+your next project, Dev Stack puts 15 popular technologies in one place —
 each with a rating, difficulty level, and short description — so you can
 compare them side by side and collect your favorites into a single stack
 you can review, edit, or clear at any time.

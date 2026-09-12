@@ -50,6 +50,16 @@
     "badge": "Standard"
   },
   {
+    "id": "expressjs",
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "A minimal, unopinionated web framework for Node.js used to build APIs and web servers fast.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Minimal"
+  },
+  {
     "id": "postgresql",
     "name": "PostgreSQL",
     "category": "Database",
