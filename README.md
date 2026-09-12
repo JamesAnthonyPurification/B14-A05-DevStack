@@ -36,8 +36,8 @@ you can review, edit, or clear at any time.
 
 ## Live Demo
 
-- GitHub Repository: _add your repo link here_
-- Live Site: _add your deployed link here_
+- GitHub Repository: https://github.com/JamesAnthonyPurification/B14-A05-DevStack
+- Live Site: https://b14-a05-dev-stack-nine.vercel.app/
 
 ## Getting Started
 
