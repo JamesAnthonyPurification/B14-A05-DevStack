@@ -44,10 +44,10 @@ export default function Footer() {
   return (
     <footer id="about" className="border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-7xl px-4 pb-8 pt-14 sm:px-6">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
           <div>
             <img src={logo} alt="Dev Stack" className="h-7 w-auto" />
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-slate-500">
+            <p className="mt-3 max-w-sm text-sm leading-relaxed text-slate-500">
               Curated tools, technologies, and resources for developers
               building modern software.
             </p>
